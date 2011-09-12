@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 	end
 
 #  if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    s.add_development_dependency("sqlite3-ruby")
+#    s.add_development_dependency("sqlite3-ruby")
 #  else
 #    s.add_dependency("sqlite3-ruby")
 #  end
