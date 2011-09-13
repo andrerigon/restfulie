@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "restfulie/version"
 
 Gem::Specification.new do |s|
-	s.name        = "restfulie"
+	s.name        = "restfulie-nosqlite"
 	s.version     = Restfulie::VERSION
 	s.platform    = Gem::Platform::RUBY
 	s.authors     = ["Guilherme Silveira, Caue Guerra, Luis Cipriani, Everton Ribeiro, George Guimaraes, Paulo Ahagon, and many more!"]
