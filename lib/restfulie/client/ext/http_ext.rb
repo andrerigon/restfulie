@@ -3,7 +3,7 @@ module Net
     # Definition of a patch method in the same way that post works
     def patch(path, data, initheader = nil, dest = nil, &block) # :yield: +body_segment+
       res = nil
-      request(Patch.new(path, initheader), data) {|r|
+      request(Patch1.new(path, initheader), data) {|r|
         r.read_body dest, &block
         res = r
       }
@@ -14,7 +14,7 @@ module Net
       res
     end
 
-    class Patch < Get
+    class Patch1 < Get
       METHOD = "PATCH"
     end
   end
